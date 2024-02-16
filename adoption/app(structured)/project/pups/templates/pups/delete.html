@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <h1>Want to adopt a pup?</h1>
+    <p>Adopt a pup!</p>
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.id.label}}{{form.id()}}
+        {{form.submit()}}
+    </form>
+</div>
+{% endblock %}
