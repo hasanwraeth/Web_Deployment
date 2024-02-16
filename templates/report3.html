@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{%extends "As3.html"%}
+
+{%block content%}
+  <div class="jumbotron">
+    <h1>Let's check user name!</h1>
+    {%if report%}
+      <p>User name passed all checks!</p>
+    {%else%}
+    <ul>
+      {%if not low%}
+        <li>No lower case letter!</li>
+      {%endif%}
+      {%if not up%}
+        <li>No upper case letter!</li>
+      {%endif%}
+      {%if not num%}
+        <li>No number used in last position!</li>
+      {%endif%}
+    </ul>
+    {%endif%}
+  </div>
+{%endblock%}

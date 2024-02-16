@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{%extends "As3.html"%}
+
+{%block content%}
+<div class="jumbotron">
+  <h1>Welcome to the sign up page!</h1>
+  <p>Fill up the form. Notice! We don't save any info!</p>
+
+    <form action="{{url_for('report')}}">
+      <label for="fnm">First Name:</label>
+        <input type="text" name="fnm">
+      <label for="lnm">Last Name:</label>
+        <input type="text" name="lnm">
+    <h1>Please provide a username meeting the requirements!</h1>
+      <label for="unm">User Name:</label>
+        <input type="text" name="unm">
+        <p>
+          <input type="submit" value="Submit Form">
+        </p>
+    </form>
+</div>
+{%endblock%}

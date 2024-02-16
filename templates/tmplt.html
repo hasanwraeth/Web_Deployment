@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {%if login%}
+      <p>Logged in successfully!</p>
+    {%else%}
+      <p>Intruder Alert!</p>
+    {%endif%}
+    <h1> Welcome to the template site! {{mvar}}</h1>
+    <h1>{{l}}</h1>
+    <h1>{{l[0:2]}}</h1>
+    <h1>{{pdic['nm']}}</h1>
+    <h1>Here is pic of google</h1>
+    <img src="../static/google.gif" alt="">
+    <ul>
+      {%for x in l%}
+        <li>{{x}}</li>
+      {%endfor%}
+    </ul>
+    {%if 'y' in l%}
+      <p>Found you y!</p>
+    {%else%}
+      <p>y is not in list!</p>
+    {%endif%}
+  </body>
+</html>
