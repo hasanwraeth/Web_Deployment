@@ -1,0 +1,55 @@
+/*h1{
+  color:blue;
+}
+
+li{
+  color: rgb(30, 50, 150);
+}
+
+p{
+  color: #b54102
+}
+
+h4{
+  color: rgba(13, 90, 140, 0.5);
+  /*! 4th is transparency-->*/
+}
+
+/*body{
+  background: url(https://centerlink.cchmc.org/-/media/41259ed441d6475abbfb5656a09f253e.png);
+  background-repeat: no-repeat;
+}*/
+
+/*div{
+  background:blue;
+  border: red 2px dashed;
+}
+
+span{
+  background: red;
+  color: black;
+}*/
+
+.div1{
+  background: red;
+}
+
+.div2{
+  background: purple;
+}
+
+#shout{
+  color: red;
+}
+
+h1{
+  font-family: 'Silkscreen', cursive;
+}
+
+#two{
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: calibri;
+  text-align: center;
+}
